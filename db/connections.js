@@ -10,8 +10,7 @@ const db = mysql.createConnection(
         // Your mySQL password
         password: '',
         database: 'election'
-    },
-    console.log('Connected to the election database.')
+    }
 );
 
 module.exports = db;
